@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat&family=Satisfy&family=Vollkorn&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #d6d1c2;
+}
+
+#header {
+    background-color: #1a1e02;
+    margin-top: -23px;
+}
+
+.heading {
+    text-align: center;
+    font-family: "LimeLight", sans-serif;
+    letter-spacing: 1px;
+    font-size: 210%;
+    text-transform: uppercase;
+    color: #F7f7f7;
+    list-style: none;
+    height: 0;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #403D2A;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 13px;
+    color: #F7f7f7;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar a:hover{
+    font-size: 14px;
+}
+
+/* Home Page Image */ 
+
+#main-homepage-img {
+    display: block;
+    width: 100%;
+}
+
+.hp-text {
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-style: bitter, sans-serif;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.p-text {
+    font-family: "Vollkorn", sans-serif;
+    font-size: 105%;
+    color: #1a1e02;
+}
+
+.sub-text {
+    font-family: "Satisfy", sans-serif;
+    font-size: 180%;
+    color: #403D2A;
+}
+
+/* Event page */
+
+.container {
+    position: relative;
+    color: white;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+/* Centered text */
+.centered {
+    font-family: "Satisfy", sans-serif;
+    font-size: 600%;
+    text-align: center;
+    color: #F7f7f7;
+    position: absolute;
+    margin-top: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:
+        0.01em 0 #9d8e77,
+        0 0.01em #9d8e77,
+        -0.01em 0 #9d8e77,
+        0 -0.01em #9d8e77;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Contact us form */
+
+#fcf-form {
+    display: block;
+}
+
+.fcf-body {
+    margin: 0;
+    font-family: "Vollkorn", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #462405;
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    padding-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    max-width: 40%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.fcf-form-group {
+    margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.fcf-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fcf-form-control:focus {
+    border: 1px solid #313131;
+}
+
+select.fcf-form-control[size],
+select.fcf-form-control[multiple] {
+    height: auto;
+}
+
+textarea.fcf-form-control {
+    font-family: "Vollkorn", sans-serif;
+    height: auto;
+}
+
+label.fcf-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.fcf-credit {
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #545b62;
+}
+
+.fcf-credit a {
+    color: #545b62;
+    text-decoration: underline;
+}
+
+.fcf-credit a:hover {
+    color: #d6d1c2;
+    text-decoration: underline;
+}
+
+.fcf-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fcf-btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.fcf-btn:focus,
+.fcf-btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+    color: #1a1e02;
+    background-color: #9d8e77;
+    border-color: #403D2A;
+}
+
+.fcf-btn-primary:hover {
+    color: #1a1e02;
+    background-color: #d6d1c2;
+    border-color: #8b4a2b;
+}
+
+.fcf-btn-primary:focus,
+.fcf-btn-primary.focus {
+    color: #fff;
+    background-color: #d6d1c2;
+    border-color: #8b4a2b;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.fcf-btn-lg,
+.fcf-btn-group-lg>.fcf-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.fcf-btn-block {
+    display: block;
+    width: 100%;
+    color: #1a1e02;
+}
+
+.fcf-btn-block+.fcf-btn-block {
+    margin-top: 0.5rem;
+}
+
+input[type="submit"].fcf-btn-block,
+input[type="reset"].fcf-btn-block,
+input[type="button"].fcf-btn-block {
+    width: 100%;
+}
+
+#fcf-button {
+    font-family: "Vollkorn", sans-serif;
+}
+
+
+
+/* footer */
+
+footer {
+    clear: both;
+    height: 100px;
+}
+
+.social-networks {
+    text-align: center;
+   
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #403D2A;
+}
+
+#copyright-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 90%;
+    color: #403D2A;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Flowers page text */
+
+#flowers-heading {
+    font-family: "Satisfy", sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+#flowers-text {
+    font-size: 120%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fbody {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
+
+/* Flower page Main image */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 20%;
+    padding: 0 30px;
+    margin-bottom: 40px;
+  }
+  
+  .column img {
+    margin-top: 40px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .centered {
+        font-size: 250%;
+    }
+
+    .fcf-body {
+        max-width: 80%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .centered {
+        font-size: 200%;
+    }
+  }
